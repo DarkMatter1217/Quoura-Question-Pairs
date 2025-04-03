@@ -3,7 +3,7 @@ import streamlit as st
 import pickle 
 import helper
 import re
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 import distance
 from fuzzywuzzy import fuzz
 import pickle
