@@ -2,12 +2,6 @@
 import streamlit as st
 import pickle 
 import helper
-import re
-from beautifulsoup4 import BeautifulSoup
-import distance
-from fuzzywuzzy import fuzz
-import pickle
-import numpy as np
 
 
 model = pickle.load(open('model_300000.pkl','rb'))
