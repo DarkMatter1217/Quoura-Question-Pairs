@@ -1,10 +1,9 @@
 
-from pyexpat import model
 import streamlit as st
 import pickle 
 import helper
 
-model = pickle.load(open('model.pkl','rb'))
+model = pickle.load(open('model_300000.pkl','rb'))
 
 st.header("Duplicate Question Pairs")
 
